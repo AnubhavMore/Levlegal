@@ -282,7 +282,8 @@ background: #FFF;
 }
 @media(max-width:550px){
   #hero-banner{
-    width:448px;
+    width:100%;
+	  overflow:hidden;
     height:363.25px;
     display: flex;
   }
@@ -673,7 +674,8 @@ margin: 0 8px;
       background-size: cover;
       height:1400px;
       background-position: center;
-      width:448px;
+      width:100%;
+	    overflow:hidden;
       display: flex
       };
    
