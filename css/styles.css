@@ -1098,6 +1098,7 @@ color: #FFFFFF;
   color: #fff;
   background: #000000;
   text-align: center;
+	width:100%;
 }
 .alignment-footer{
   position: relative;
