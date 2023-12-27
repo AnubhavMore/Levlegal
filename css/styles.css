@@ -659,7 +659,7 @@ margin: 0 8px;
 }
 @media(min-width:500px){
 #about {
-  padding: 100px 0;
+  padding: 40px 0;
   background: url(../images_levlegal/1.png) ;
   background-size: cover;
   height:900px;
