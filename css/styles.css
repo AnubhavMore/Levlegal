@@ -657,30 +657,42 @@ background: transparent;
 border: 1px solid rgba(255, 255, 255, 0.2);
 margin: 0 8px;
 }
-@media(min-width:500px){
-#about {
-  padding: 40px 0;
-  background: url(../images_levlegal/1.png) ;
-  background-size: cover;
-  height:900px;
-  background-position: center;
+.about{
+  position:relative;
+  margin:0;
   width:100%;
-  display: flex
-  };}
-  @media(max-width:500px){
-    #about {
-      padding: 40px 0;
-      background: url(../images_levlegal/1.png) ;
-      background-size: cover;
-      height:1400px;
-      background-position: center;
-      width:100%;
-	    overflow:hidden;
-      display: flex
-      };
-   
+}
     
+.img-about{
+  width:100%;
+  position: relative;
+  height:1000px;
+  margin:0;padding:0;
+}
+.content-about{
+  position:absolute;
+  top:0;
+  padding:20px;
+}
+@media(max-width:500px){
+  .about{
+    position:relative;
+    margin:0;
+    width:100%;
   }
+      
+  .img-about{
+    width:100%;
+    position: relative;
+    height:1450px;
+    margin:0;padding:0;
+  }
+  .content-about{
+    position:absolute;
+    top:0;
+    padding-bottom:120px;
+  }
+}
 
 #about .column-title{
 color:#fff;
@@ -1073,7 +1085,8 @@ color: #FFFFFF;
       width:100%;
       border:5px solid black;
       display: flex;
-      padding:20px;
+      margin-left:20px;
+      margin-right: 20px;
       margin-bottom:20px;
       gap:20px;
       align-items: first baseline;
